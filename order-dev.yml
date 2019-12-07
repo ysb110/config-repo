@@ -24,3 +24,6 @@ logging:
   level:
     org.springframework.cloud.openfeign: debug
     org.springframework.cloud.bus: debug
+eureka:
+  instance:
+    prefer-ip-address: true
