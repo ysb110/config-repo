@@ -5,11 +5,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/ #,http://eureka2:8762/eureka/
+    url: jdbc:mysql://192.168.43.239:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
   instance:
     prefer-ip-address: true
   rabbitmq:
