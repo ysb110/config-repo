@@ -18,6 +18,19 @@ spring:
     port: 6379
   jpa:
     show-sql: true
+  cloud:
+    stream:
+      bindings:
+        myMessage:
+          group: order
+          content-type: application/json
+  zipkin:
+    base-url: http://zipkin:9411/
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
 girl: 18
 env: dev
 logging:
