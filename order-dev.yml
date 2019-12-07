@@ -20,3 +20,7 @@ spring:
     show-sql: true
 girl: 18
 env: dev
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug
+    org.springframework.cloud.bus: debug
