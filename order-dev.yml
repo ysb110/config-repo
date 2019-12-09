@@ -9,7 +9,7 @@ spring:
   instance:
     prefer-ip-address: true
   rabbitmq:
-    host: 192.168.43.191
+    host: 192.168.43.130
     port: 5672
     username: guest
     password: guest
