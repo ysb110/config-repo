@@ -11,14 +11,14 @@ spring:
     port: 5672
     username: guest
     password: guest
-eureka:
-  instance:
-    prefer-ip-address: true
   redis:
     host: 192.168.43.191
     port: 6379
   jpa:
     show-sql: true
+eureka:
+  instance:
+    prefer-ip-address: true
 girl: 18
 logging:
   level:
