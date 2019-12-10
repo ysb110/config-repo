@@ -35,7 +35,7 @@ spring:
 #测试配置自动刷新
 girl:
   name: nicegirl
-  age: 18
+  age: 19
 env: dev
 logging:
   level:
