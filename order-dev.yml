@@ -24,6 +24,7 @@ spring:
         myMessage:
           group: order
           content-type: application/json
+#链路追踪
   zipkin:
     base-url: http://zipkin:9411/
     sender:
@@ -31,7 +32,10 @@ spring:
   sleuth:
     sampler:
       probability: 1
-girl: 18
+#测试配置自动刷新
+girl:
+  name: nicegirl
+  age: 18
 env: dev
 logging:
   level:
